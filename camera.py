@@ -3,11 +3,11 @@ from detection import AccidentDetectionModel
 import numpy as np
 import os
 
-model = AccidentDetectionModel("model.json", 'model_weights.h5')
+model = AccidentDetectionModel("model.json", 'model_weights.keras')
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 def startapplication():
-    video = cv2.VideoCapture('cars.mp4') # for camera use video = cv2.VideoCapture(0)
+    video = cv2.VideoCapture(0) 
     while True:
         ret, frame = video.read()
         gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
