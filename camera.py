@@ -17,9 +17,8 @@ def startapplication():
         if(pred == "Accident"):
             prob = (round(prob[0][0]*100, 2))
             
-            # to beep when alert:
-            # if(prob > 90):
-            #     os.system("say beep")
+            if(prob > 90):
+                os.system("say beep")
 
             cv2.rectangle(frame, (0, 0), (280, 40), (0, 0, 0), -1)
             cv2.putText(frame, pred+" "+str(prob), (20, 30), font, 1, (255, 255, 0), 2)
