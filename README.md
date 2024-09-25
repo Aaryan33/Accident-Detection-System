@@ -45,11 +45,11 @@ python main.py
 
 ## 5. Future Scope
 
-    -> Automatically send the Google Maps location to the nearest hospital upon detecting an accident.
+  -> Automatically send the Google Maps location to the nearest hospital upon detecting an accident.
     
-    -> Hospitals can accept the request and dispatch an ambulance to the location.
+  -> Hospitals can accept the request and dispatch an ambulance to the location.
     
-    -> The ambulance driver can access the Google Maps link received via email to reach the location quickly.
+  -> The ambulance driver can access the Google Maps link received via email to reach the location quickly.
   
 ## Technology Used
 
